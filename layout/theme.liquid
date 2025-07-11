@@ -1,4 +1,4 @@
-s<!doctype html>
+<!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
@@ -26,10 +26,6 @@ s<!doctype html>
 <link rel="preload" href="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XbQAuN&shop=wolfpak-backpacks.myshopify.com" as="script" />    
 <link rel="preload" href="https://shopify-init.blackcrow.ai/js/core/wolfpak-backpacks.js?shop=wolfpak-backpacks.myshopify.com&tagSrc=ShopifyThemeAppExtension" as="script" />    
 <link rel="preload" href="https://wolfpak.com/wpm@feecbecawfdfe1f43pf69f8c50m5e756bba/web-pixel-403800311@9a9ab8622c3c5b07abaaa56bf0d3b97d/sandbox/worker.modern.js" as="script" />    
-
-    
-    
-    
 
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
